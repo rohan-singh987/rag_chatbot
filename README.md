@@ -1,4 +1,4 @@
-# 🎓 RAG Educational Chatbot - NCERT Class 9 Science
+# 🎓 RAG Educational Chatbot
 
 An AI-powered tutoring assistant for Class 9 Science students using Retrieval-Augmented Generation (RAG) with the official NCERT Science textbook as the knowledge base.
 
@@ -49,8 +49,8 @@ An AI-powered tutoring assistant for Class 9 Science students using Retrieval-Au
 
 ```bash
 # Create conda environment
-conda create -n rag-chatbot python=3.11
-conda activate rag-chatbot
+conda create -n rag_chatbot python=3.11
+conda activate rag_chatbot
 
 # Install dependencies
 pip install -r requirements.txt
@@ -307,7 +307,7 @@ The system provides comprehensive logging for analysis:
 - **Frontend**: Streamlit (NEW!)
 - **Vector Database**: ChromaDB
 - **Embeddings**: Sentence Transformers (all-MiniLM-L6-v2)
-- **LLM**: OpenAI GPT-3.5-turbo
+- **LLM**: OpenAI gpt-4o-mini
 - **PDF Processing**: PyMuPDF, LangChain
 - **Logging**: Loguru
 - **Validation**: Pydantic
@@ -320,11 +320,3 @@ The system provides comprehensive logging for analysis:
 - **Error Handling**: Graceful fallbacks and detailed error logging
 - **Configuration**: Environment-based settings management
 - **Frontend Integration**: Seamless API communication with error boundaries
-
-## 🤝 Contributing
-
-This RAG chatbot demonstrates production-ready practices for educational AI applications. The modular design allows easy extension to other subjects or grade levels.
-
----
-
-*Built with ❤️ for educational technology and AI-powered learning*
